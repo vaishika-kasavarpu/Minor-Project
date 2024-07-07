@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF8">
+        <meta http-equip="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <title>My Portfolio Website</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="https://kit.fontawesome.com/436d309958.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <!--Header section starts-->
+        <div id="header">
+            <div class="container">
+                <nav>
+                    <img src="/images/image.png" alt="logo" class="logo">
+                    <ul id="sidemenu">
+                        <li><a href="#header">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#portfolio">Portfoilo</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                        <i class="fa-solid fa-circle-xmark" onclick="closemenu()"></i>
+                    </ul>
+                        <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+                </nav>
+                <div class="header-text">
+                    <p>RGUKTN</p>
+                    <h1>Hi, I'am <span>Vaishika Kasavarapu</span> <br>From India</h1>
+                </div>
+            </div>
+        </div>
+        <!--Header section starts-->
+
+        <!--About section starts-->
+        <div id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="about-col-1">
+                        <img src="/images/ab.jpeg" alt="abimg">
+                    </div>
+                    <div class="about-col-2">
+                            <h1 class="sub-title">About Me</h1>
+                            <p>Iam Vaishika Kasavarapu and i was born on 21st june 2007 in Nellore,Andhra Pradesh.My native place is also my most favourite place is my Grandma's house near Survepalli,Nellore.Iam a girl from a middle class family.I was completed my schooling in Govt.Girls High School near mulapet,Nellore.And I have completed my Pre-University course in Rajiv Gandhi University Of Knowledge Technologies.Currently,Iam gonna pursue btech in the same University.I have basic knowledge in UI/Ux and Iam skilled in Html,CSS and Python.</p>
+                            <div class="tab-titles">
+                                <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                                <p class="tab-links" onclick="opentab('my experience')">My Experience</p>
+                                <p class="tab-links" onclick="opentab('education')">Education</p>
+                            </div>
+                            <div class="tab-contents active-tab" id="skills">
+                                <ul>
+                                    <li><span>HTML</span><br>Creating a Structure of a webpage</li>
+                                    <li><span>CSS</span><br>Styling the webpages</li>
+                                    <li><span>Basics in UI/UX</span><br>Designing user interfaces</li>
+                                </ul>
+                            </div>
+                            <div class="tab-contents " id="my experience">
+                                <ul>
+                                    <li><span>UI/UX Workshop</span><br>Actually,I have no idea about UI/UX before my presence in workshop.Later the workshop begins,I loved it so much.I amazed on my self that i have created a user interface for a food delivery app.This is all because of Our mentor.He is very good at teaching the concept to us.If he is not be our mentor,may be we are not able that much good.</li>
+                                    <li><span>SSIT 30-days Internship programme</span><br>This internship helped me to gain more knowledge about very good things.I have explored many super cool concepts like about Internet,IPs,OSI model and so on.I will say Heartfully thanks to the Surya sir for give this wonderful Oppurtunity and Hoping that in future we will get more Opportunities like this sir.</li>
+                                </ul>
+                            </div>
+                            <div class="tab-contents" id="education">
+                                <ul>
+                                    <li><span>2022-2024</span><br>Pre-University Course</li>
+                                    <li><span>2021-2022</span><br>Govt.Girls High school</li>
+                                </ul>
+                            </div>
+                      </div>      
+                </div>
+            </div>
+        </div>
+         <!--About section ends-->
+
+        <!--Service section starts-->
+        <div id="services">
+            <div class="container">
+                <h1 class="sub-title">My Services</h1>
+                    <div class="services-list">
+                        <div>
+                            <i class="fa-solid fa-code"></i>
+                            <h2 id="shc">Web Development</h2>
+                            <p >Web development services includes creating, building, and maintaining websites or web applications.</p>
+                            <a href="#">Learn More</a>
+                        </div>
+                        <div>
+                            <i class="fa-solid fa-mobile"></i>
+                            <h2 class="shc">Basic UI/UX Designing</h2>
+                            <p class="spc">UX design focuses on the user's overall experience when interacting with a product, while UI design deals explicitly with the visual and interactive elements of the product.</p>
+                            <a href="#">Learn More</a>
+                        </div>
+                        <div>
+                            <i class="fa-solid fa-code"></i>
+                            <h2 class="shc">Front-end Development</h2>
+                            <p class="spc">Front-end development is the process of building components that interact with users.</p>
+                            <a href="#">Learn More</a>
+                        </div>
+                    </div>
+            </div>
+        </div>
+
+        <!--Service section ends-->
+
+        <!--Portfolio section starts-->
+
+        <div id="portfolio">
+            <div class="container">
+                <h1 class="sub-title">My Portfolio</h1>
+                <div class="work-list">
+                    <div class="work">
+                        <img src="/images/wo1.png" alt="osi">
+                        <div class="layer">
+                            <h3>PPT on OSI Model</h3>
+                            <p>OSI stands for Open Systems Interconnection which explains about the transmission of data from one person to another across the globe. </p>
+                            <a href="#"><i class="fa-solid fa-link"></i></a>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="/images/wu2.png" alt="ui">
+                        <div class="layer">
+                            <h3>App Interface</h3>
+                            <p>It is an User interface of a application which users can choose their favourite Movie tickets to the users in online mode.</p> 
+                            <a href="#"><i class="fa-solid fa-link"></i></a>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="/images/wa3.png" alt="ai">
+                        <div class="layer">
+                            <h3>PPT on AI&ML</h3>
+                            <p>Artificial intelligence is which can able to do the things with the human equally where as machine learning is training a machine by giving certain algorithms to it and later on machine learn it based on its experience.</p>
+                            <a href="#"><i class="fa-solid fa-link"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--portfolio Section ends-->
+
+        <!--Contact Section starts-->
+        <div id="contact">
+            <div class="container">
+                <div class="row">
+                    <div class="contact-left">
+                        <h1 class="sub-title">Contact Me</h1>
+                        <p><i class="fa-solid fa-envelope"></i> kvaishika6@gmail.com</p>
+                        <p><i class="fa-solid fa-phone"></i>&nbsp;8341857563</p>
+                        <div class="social-icons">
+                            <a href="#"><i class="fa-brands fa-square-facebook"></i></a>
+                            <a href="#"><i class="fa-brands fa-square-instagram"></i></a>
+                            <a href="#"><i class="fa-brands fa-square-x-twitter"></i></a>
+                            <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                            <a href="#"><i class="fa-brands fa-square-github"></i></a>
+                        </div>
+                    </div>
+                    <div class="contact-right">
+                        <form name="submit-to-google-sheet">
+                            <input type="text" name="name" placeholder="Enter Your Full Name" required>
+                            <input type="email" name="email" placeholder="Enter Your Email ID" required>
+                            <textarea name="message" rows="6" placeholder="Enter Your Message" required></textarea>
+                            <button type="submit" class="btn">Submit</button>
+                        </form>
+                        <span id="msg"></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--Contact Section ends-->
+
+        <!--Copyright Section starts-->
+
+        <div class="copyright">
+            <p>Copyright © Vaishika Kasvarapu - Student <i class="fa-solid fa-heart"></i></p>
+        </div>
+
+        <!--Copyright Section ends-->
+
+        <!--Code for tabs-->
+        
+        <script>
+            var tablinks=document.getElementsByClassName("tab-links");
+            var tabcontents=document.getElementsByClassName("tab-contents");
+           function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove('active-link');
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove('active-tab');
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add('active-tab');
+            }
+        </script>
+
+        <!--Code for sidemenu in phone screen-->
+
+        <script>
+            var sidemenu=document.getElementById("sidemenu");
+            function openmenu(){
+                sidemenu.style.right="0";
+            }
+            function closemenu(){
+                sidemenu.style.right="-200px";
+            }
+        </script>
+
+        <!--Code for linking with google sheets-->
+        
+        <script>
+            const scriptURL = 'https://script.google.com/macros/s/AKfycbyWpAMXe-H0-ElFAO-LgRGi_huo_VPFjzSunYePYSyxjJht1KbahKQNjZdll7LuXJCb/exec'
+            const form = document.forms['submit-to-google-sheet']
+            const msg = document.getElementById("msg")
+        
+            
+            form.addEventListener('submit', e=> {
+                e.preventDefault()
+                fetch(scriptURL,{ method: 'POST', body:new FormData(form)})
+                .then(Response =>{
+                    msg.innerHTML = "Thanks for Contacting us! Our team will get in touch with you shortly!"
+                    setTimeout(function(){
+                        msg.innerHTML=""
+                    },5000)
+                    form.reset()
+                })
+                .catch(error => console.error("Error!",error.message))
+            }                
+            )
+        </script>
+
+    </body>
+</html>
+
+
+
